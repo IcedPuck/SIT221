@@ -87,11 +87,26 @@ namespace Heap
             int position = start;
             while (position != 1)
             {
-                if (comparer.Compare(data[position].Key, data[position / 2].Key) < 0) Swap(position, position / 2);
+                if (comparer.Compare(data[position].Key, data[position / 2].Key) < 0)
+                {
+                    Swap(position, position / 2); //子 -> 父
+                }
                 position = position / 2;
             }
         }
 
+        private void DownHeap(int start)
+        {
+            int position = start;
+            while (position * 2 < Count)
+            {
+                if(comparer.Compare(data[position].Key, data[position * 2].Key) > 0)
+                {
+                    Swap(position, position * 2); //父 -> 子
+                }
+                position = position * 2;
+            }
+        }
         // This method swaps two elements in the list representing the heap. 
         // Use it when you need to swap nodes in your solution, e.g. in DownHeap() that you will need to develop.
         private void Swap(int from, int to)
@@ -136,31 +151,11 @@ namespace Heap
                 throw new InvalidOperationException("The heap is empty.");
             }
             Swap(data[1].Position, data[Count].Position);//对换头和尾的东西
-            data[Count] = null;
-            //重排
-            //while (position * 2 <= Count - 1)
-            //{
-            for (int i = 1; i * 2 <= Count - 1; i++)
-            {
-                if (comparer.Compare(data[i].Key, data[i * 2].Key) < 0)
-                {
-                    //交换
-                    Swap(data[i].Position, data[i * 2].Position);
-                }
-                if(comparer.Compare(data[i].Key, data[i * 2].Key) > 0)
-                {
-                    //继续
-                    continue;
-                }
-                if(comparer.Compare(data[i].Key, data[i * 2].Key) == 0)
-                {
-                    //错误
-                    break;
-                }
-            }
-              
-            //}
-            return data[Count + 1];
+            data[Count] = null;//remove the node
+            Count--;
+            int position = 1;
+            DownHeap(position);
+            return data[Count];
         }
 
         // Builds a minimum binary heap using the specified data according to the bottom-up approach.

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Study\\University\\SIT221\\Ontrack\\6.1P\\6.1P\\6.1P.csproj": {}
+    "E:\\Study\\University\\SIT221\\Ontrack\\SIT221\\6.1P\\6.1P\\6.1P.csproj": {}
   },
   "projects": {
-    "E:\\Study\\University\\SIT221\\Ontrack\\6.1P\\6.1P\\6.1P.csproj": {
+    "E:\\Study\\University\\SIT221\\Ontrack\\SIT221\\6.1P\\6.1P\\6.1P.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Study\\University\\SIT221\\Ontrack\\6.1P\\6.1P\\6.1P.csproj",
+        "projectUniqueName": "E:\\Study\\University\\SIT221\\Ontrack\\SIT221\\6.1P\\6.1P\\6.1P.csproj",
         "projectName": "6.1P",
-        "projectPath": "E:\\Study\\University\\SIT221\\Ontrack\\6.1P\\6.1P\\6.1P.csproj",
+        "projectPath": "E:\\Study\\University\\SIT221\\Ontrack\\SIT221\\6.1P\\6.1P\\6.1P.csproj",
         "packagesPath": "C:\\Users\\pass\\.nuget\\packages\\",
-        "outputPath": "E:\\Study\\University\\SIT221\\Ontrack\\6.1P\\6.1P\\obj\\",
+        "outputPath": "E:\\Study\\University\\SIT221\\Ontrack\\SIT221\\6.1P\\6.1P\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
