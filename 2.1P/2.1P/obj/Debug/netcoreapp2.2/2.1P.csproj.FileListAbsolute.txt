@@ -1,0 +1,11 @@
+C:\Users\pass\Desktop\SIT221\Ontrack\2.1P\2.1P\bin\Debug\netcoreapp2.2\2.1P.deps.json
+C:\Users\pass\Desktop\SIT221\Ontrack\2.1P\2.1P\bin\Debug\netcoreapp2.2\2.1P.runtimeconfig.json
+C:\Users\pass\Desktop\SIT221\Ontrack\2.1P\2.1P\bin\Debug\netcoreapp2.2\2.1P.runtimeconfig.dev.json
+C:\Users\pass\Desktop\SIT221\Ontrack\2.1P\2.1P\bin\Debug\netcoreapp2.2\2.1P.dll
+C:\Users\pass\Desktop\SIT221\Ontrack\2.1P\2.1P\bin\Debug\netcoreapp2.2\2.1P.pdb
+C:\Users\pass\Desktop\SIT221\Ontrack\2.1P\2.1P\obj\Debug\netcoreapp2.2\2.1P.csprojAssemblyReference.cache
+C:\Users\pass\Desktop\SIT221\Ontrack\2.1P\2.1P\obj\Debug\netcoreapp2.2\2.1P.csproj.CoreCompileInputs.cache
+C:\Users\pass\Desktop\SIT221\Ontrack\2.1P\2.1P\obj\Debug\netcoreapp2.2\2.1P.AssemblyInfoInputs.cache
+C:\Users\pass\Desktop\SIT221\Ontrack\2.1P\2.1P\obj\Debug\netcoreapp2.2\2.1P.AssemblyInfo.cs
+C:\Users\pass\Desktop\SIT221\Ontrack\2.1P\2.1P\obj\Debug\netcoreapp2.2\2.1P.dll
+C:\Users\pass\Desktop\SIT221\Ontrack\2.1P\2.1P\obj\Debug\netcoreapp2.2\2.1P.pdb

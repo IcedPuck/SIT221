@@ -1,0 +1,11 @@
+C:\Users\pass\Desktop\SIT221\Ontrack\6.1P\6.1P\bin\Debug\netcoreapp2.2\6.1P.deps.json
+C:\Users\pass\Desktop\SIT221\Ontrack\6.1P\6.1P\bin\Debug\netcoreapp2.2\6.1P.runtimeconfig.json
+C:\Users\pass\Desktop\SIT221\Ontrack\6.1P\6.1P\bin\Debug\netcoreapp2.2\6.1P.runtimeconfig.dev.json
+C:\Users\pass\Desktop\SIT221\Ontrack\6.1P\6.1P\bin\Debug\netcoreapp2.2\6.1P.dll
+C:\Users\pass\Desktop\SIT221\Ontrack\6.1P\6.1P\bin\Debug\netcoreapp2.2\6.1P.pdb
+C:\Users\pass\Desktop\SIT221\Ontrack\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.csprojAssemblyReference.cache
+C:\Users\pass\Desktop\SIT221\Ontrack\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.csproj.CoreCompileInputs.cache
+C:\Users\pass\Desktop\SIT221\Ontrack\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.AssemblyInfoInputs.cache
+C:\Users\pass\Desktop\SIT221\Ontrack\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.AssemblyInfo.cs
+C:\Users\pass\Desktop\SIT221\Ontrack\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.dll
+C:\Users\pass\Desktop\SIT221\Ontrack\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.pdb
