@@ -20,3 +20,14 @@ E:\Study\University\SIT221\Ontrack\SIT221\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P
 E:\Study\University\SIT221\Ontrack\SIT221\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.AssemblyInfo.cs
 E:\Study\University\SIT221\Ontrack\SIT221\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.dll
 E:\Study\University\SIT221\Ontrack\SIT221\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.pdb
+E:\Code\SIT221\SIT221\6.1P\6.1P\bin\Debug\netcoreapp2.2\6.1P.deps.json
+E:\Code\SIT221\SIT221\6.1P\6.1P\bin\Debug\netcoreapp2.2\6.1P.runtimeconfig.json
+E:\Code\SIT221\SIT221\6.1P\6.1P\bin\Debug\netcoreapp2.2\6.1P.runtimeconfig.dev.json
+E:\Code\SIT221\SIT221\6.1P\6.1P\bin\Debug\netcoreapp2.2\6.1P.dll
+E:\Code\SIT221\SIT221\6.1P\6.1P\bin\Debug\netcoreapp2.2\6.1P.pdb
+E:\Code\SIT221\SIT221\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.csprojAssemblyReference.cache
+E:\Code\SIT221\SIT221\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.csproj.CoreCompileInputs.cache
+E:\Code\SIT221\SIT221\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.AssemblyInfoInputs.cache
+E:\Code\SIT221\SIT221\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.AssemblyInfo.cs
+E:\Code\SIT221\SIT221\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.dll
+E:\Code\SIT221\SIT221\6.1P\6.1P\obj\Debug\netcoreapp2.2\6.1P.pdb
