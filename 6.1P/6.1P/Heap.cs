@@ -98,13 +98,16 @@ namespace Heap
         private void DownHeap(int start)
         {
             int position = start;
-            while (position * 2 < Count)
+            if ()
             {
-                if(comparer.Compare(data[position].Key, data[position * 2].Key) > 0)
+                while (position * 2 < Count)
                 {
-                    Swap(position, position * 2); //父 -> 子
+                    if (comparer.Compare(data[position].Key, data[position * 2].Key) > 0)
+                    {
+                        Swap(position, position * 2); //父 -> 子
+                    }
+                    position = position * 2;
                 }
-                position = position * 2;
             }
         }
         // This method swaps two elements in the list representing the heap. 
@@ -151,10 +154,10 @@ namespace Heap
                 throw new InvalidOperationException("The heap is empty.");
             }
             Swap(data[1].Position, data[Count].Position);//对换头和尾的东西
-            data[Count] = null;//remove the node
+            data[Count] = null;//remove the node --> Problema
             Count--;
             int position = 1;
-            DownHeap(position);
+            DownHeap(position);//Sort
             return data[Count];
         }
 
