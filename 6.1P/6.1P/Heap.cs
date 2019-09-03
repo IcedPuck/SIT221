@@ -98,13 +98,29 @@ namespace Heap
         private void DownHeap(int start)
         {
             int position = start;
-            while (position * 2 < Count)
+            while(position * 2 == Count || position * 2 + 1 == Count)
             {
-                if(comparer.Compare(data[position].Key, data[position * 2].Key) > 0)
+                //判断这个是交换左边还是右边
+                if (position * 2 < Count || position * 2 + 1 < Count)
                 {
-                    Swap(position, position * 2); //父 -> 子
+                    //右边的情况
+                    if (comparer.Compare(data[position * 2].Key, data[position * 2 + 1].Key) > 0)
+                    {
+                        Swap(position, position * 2 + 1);//父 -> 子
+                        position = position * 2 + 1;
+                    }
+                    //左边的情况
+                    else if (comparer.Compare(data[position * 2].Key, data[position * 2 + 1].Key) < 0)
+                    {
+                        Swap(position, position * 2);//父 -> 子
+                        position = position * 2;
+                    }
                 }
-                position = position * 2;
+                else
+                {
+                    Console.WriteLine("This one will not change anything");
+                    break;
+                }
             }
         }
         // This method swaps two elements in the list representing the heap. 
@@ -155,7 +171,7 @@ namespace Heap
             Count--;
             int position = 1;
             DownHeap(position);
-            return data[Count];
+            return data[Count - 1];
         }
 
         // Builds a minimum binary heap using the specified data according to the bottom-up approach.
