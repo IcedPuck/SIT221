@@ -98,11 +98,18 @@ namespace Heap
         private void DownHeap(int start)
         {
             int position = start;
-            while(position * 2 == Count || position * 2 + 1 == Count)
+            while (position * 2 == Count || position * 2 + 1 == Count)
             {
-                //判断这个是交换左边还是右边
-                if (position * 2 < Count || position * 2 + 1 < Count)
+                //判断下面有没有可交换的数
+                if (position * 2 <= Count || position * 2 + 1 <= Count)
                 {
+                    //情况1：左边有右边没有
+                    if(position * 2 + 1 > Count)
+                    {
+                        Swap(position, position * 2);
+                        position = position * 2;
+                    }
+                    //情况2：左右两边都有
                     //右边的情况
                     if (comparer.Compare(data[position * 2].Key, data[position * 2 + 1].Key) > 0)
                     {
@@ -118,17 +125,8 @@ namespace Heap
                 }
                 else
                 {
-                    Console.WriteLine("This one will not change anything");
+                    Console.WriteLine("This one don't need not Swap");
                     break;
-            if ()
-            {
-                while (position * 2 < Count)
-                {
-                    if (comparer.Compare(data[position].Key, data[position * 2].Key) > 0)
-                    {
-                        Swap(position, position * 2); //父 -> 子
-                    }
-                    position = position * 2;
                 }
             }
         }
@@ -145,7 +143,7 @@ namespace Heap
 
         public void Clear()
         {
-            for (int i = 0; i<=Count; i++) data[i].Position = -1;
+            for (int i = 0; i <= Count; i++) data[i].Position = -1;
             data.Clear();
             data.Add(new Node(default(K), default(D), 0));
             Count = 0;
@@ -171,28 +169,28 @@ namespace Heap
         {
             // You should replace this plug by your code.
             //throw new NotImplementedException();
-            if(Count == 0)
+            if (Count == 0)
             {
                 throw new InvalidOperationException("The heap is empty.");
             }
-            Swap(data[1].Position, data[Count].Position);//对换头和尾的东西
-            data[Count] = null;//remove the node --> Problema
+            data[1].Position = data[Count].Position;
+            data[1] = data[Count];
+            //Swap(data[1].Position, data[Count].Position);//对换头和尾的东西
+            //data[Count] = null;//remove the node --> Problem
             Count--;
             int position = 1;
-<<<<<<< HEAD
             DownHeap(position);
             return data[Count - 1];
-=======
-            DownHeap(position);//Sort
-            return data[Count];
->>>>>>> 73e044ee31014b6a299c8a2fa05d85a29b7a6a1f
         }
 
         // Builds a minimum binary heap using the specified data according to the bottom-up approach.
         public IHeapifyable<K, D>[] BuildHeap(K[] keys, D[] data)
         {
             // You should replace this plug by your code.
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            int key = keys[];
+            int value = data[];
+            Node heap = new Node(key, value, Count);
             if (Count == 0)
             {
                 for (int i = 1; i < Count; i++)
@@ -204,7 +202,7 @@ namespace Heap
             {
                 throw new InvalidOperationException();
             }
-            //return;
+            return heap;
         }
 
         public void DecreaseKey(IHeapifyable<K, D> element, K new_key)
