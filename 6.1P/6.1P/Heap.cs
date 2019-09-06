@@ -103,13 +103,24 @@ namespace Heap
         private void DownHeap(int start)
         {
             int position = start;
-            while (position * 2 <= Count - 1)
+            if(position * 2 > Count)
             {
-                if (comparer.Compare(data[position].Key, data[position * 2].Key) > 0
-                    && data[position * 2].Position.Equals(data[Count - 1].Position))
+                return;
+            }
+            //开始循环
+            while (position * 2 <= Count)
+            {
+                if (position * 2 == Count)//测试是否超出总数
                 {
-                    Swap(position, position * 2);
-                    position = position * 2;
+                    if (comparer.Compare(data[position].Key, data[position * 2].Key) >= 0)
+                    {
+                        Swap(position, position * 2);
+                        position = position * 2;
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
                 else if (comparer.Compare(data[position].Key, data[position * 2].Key) > 0
                     && comparer.Compare(data[position * 2].Key, data[position * 2 + 1].Key) < 0)
@@ -185,37 +196,35 @@ namespace Heap
             DownHeap(position);
             return data[Count + 1];
         }
-
         // Builds a minimum binary heap using the specified data according to the bottom-up approach.
         public IHeapifyable<K, D>[] BuildHeap(K[] keys, D[] value)
         {
-            // You should replace this plug by your code.
-            //throw new NotImplementedException();
-            Clear();
-            if (Count != 0)
+            if (Count != 0) throw new InvalidOperationException();
+            IHeapifyable<K, D>[] newNode = new Node[keys.Length];
+
+            for (int i = keys.Length; i != 0; i--)
             {
-                throw new IndexOutOfRangeException();
+
+                Node node = new Node(keys[Count], value[Count], Count+1);
+                newNode[Count] = node;
+                data.Add(node);
+                Count++;
+                //newNode[Count] = Insert2(keys[Count], data[Count]);
             }
-            Count = Count + 1;
-            for(int i = 0; (i < keys.Length) && (i < value.Length); i++)
+            for (int i = Count; i != 0; i--)
             {
-                Insert(keys[i], value[i]);
+                DownHeap(i);
             }
-            return data.ToArray();
+            return newNode;
         }
 
         public void DecreaseKey(IHeapifyable<K, D> element, K new_key)
         {
             // You should replace this plug by your code.
             //throw new NotImplementedException();
-            if (data != null)
-            {
-                throw new IndexOutOfRangeException();
-            }
-            if()
-            {
-                throw new IndexOutOfRangeException();
-            }
+            data[element.Position].Key = new_key;
+            UpHeap(element.Position);
+
         }
 
     }
