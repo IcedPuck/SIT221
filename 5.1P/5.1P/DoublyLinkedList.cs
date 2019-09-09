@@ -135,15 +135,15 @@ namespace DoublyLinkedList
             // You should replace this plug by your code.
             //throw new NotImplementedException();
             Node<T> new_node = node as Node<T>;
-            if(node == null)
+            if(node == null)//Empty
             {
                 throw new NullReferenceException();
             }
-            else if(new_node.Previous == null || new_node.Next == null)
+            else if(new_node.Previous == null || new_node.Next == null)//Just have one
             {
                 throw new InvalidOperationException("Is no longer in the list");
             }
-            else if(new_node.Next.Equals(Tail))
+            else if(new_node.Next.Equals(Tail))//This is head
             {
                 return null;
             }

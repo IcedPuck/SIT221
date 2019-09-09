@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pass\\Desktop\\SIT221\\Ontrack\\5.1P\\5.1P\\5.1P.csproj": {}
+    "E:\\Code\\SIT221\\SIT221\\5.1P\\5.1P\\5.1P.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pass\\Desktop\\SIT221\\Ontrack\\5.1P\\5.1P\\5.1P.csproj": {
+    "E:\\Code\\SIT221\\SIT221\\5.1P\\5.1P\\5.1P.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pass\\Desktop\\SIT221\\Ontrack\\5.1P\\5.1P\\5.1P.csproj",
+        "projectUniqueName": "E:\\Code\\SIT221\\SIT221\\5.1P\\5.1P\\5.1P.csproj",
         "projectName": "5.1P",
-        "projectPath": "C:\\Users\\pass\\Desktop\\SIT221\\Ontrack\\5.1P\\5.1P\\5.1P.csproj",
-        "packagesPath": "C:\\Users\\pass\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pass\\Desktop\\SIT221\\Ontrack\\5.1P\\5.1P\\obj\\",
+        "projectPath": "E:\\Code\\SIT221\\SIT221\\5.1P\\5.1P\\5.1P.csproj",
+        "packagesPath": "C:\\Users\\Jake-y\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\SIT221\\SIT221\\5.1P\\5.1P\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jake-y\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
