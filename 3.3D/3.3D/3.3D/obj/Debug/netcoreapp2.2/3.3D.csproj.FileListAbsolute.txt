@@ -1,0 +1,11 @@
+E:\Code\SIT221\SIT221\3.3D\3.3D\3.3D\obj\Debug\netcoreapp2.2\3.3D.csprojAssemblyReference.cache
+E:\Code\SIT221\SIT221\3.3D\3.3D\3.3D\obj\Debug\netcoreapp2.2\3.3D.csproj.CoreCompileInputs.cache
+E:\Code\SIT221\SIT221\3.3D\3.3D\3.3D\obj\Debug\netcoreapp2.2\3.3D.AssemblyInfoInputs.cache
+E:\Code\SIT221\SIT221\3.3D\3.3D\3.3D\obj\Debug\netcoreapp2.2\3.3D.AssemblyInfo.cs
+E:\Code\SIT221\SIT221\3.3D\3.3D\3.3D\bin\Debug\netcoreapp2.2\3.3D.deps.json
+E:\Code\SIT221\SIT221\3.3D\3.3D\3.3D\bin\Debug\netcoreapp2.2\3.3D.runtimeconfig.json
+E:\Code\SIT221\SIT221\3.3D\3.3D\3.3D\bin\Debug\netcoreapp2.2\3.3D.runtimeconfig.dev.json
+E:\Code\SIT221\SIT221\3.3D\3.3D\3.3D\bin\Debug\netcoreapp2.2\3.3D.dll
+E:\Code\SIT221\SIT221\3.3D\3.3D\3.3D\bin\Debug\netcoreapp2.2\3.3D.pdb
+E:\Code\SIT221\SIT221\3.3D\3.3D\3.3D\obj\Debug\netcoreapp2.2\3.3D.dll
+E:\Code\SIT221\SIT221\3.3D\3.3D\3.3D\obj\Debug\netcoreapp2.2\3.3D.pdb
